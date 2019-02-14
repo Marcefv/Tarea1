@@ -14,15 +14,6 @@ namespace Tarea1.Models
         public String Color { get; set; }
         #endregion
 
-        #region Contructor
-        public Gato()
-        {
-           Nombre = "Kero";
-           Raza = "Ruso azul";
-           Edad = 5;
-           Color = "Gris";
-
-        }
-        #endregion
+       
     }
 }
