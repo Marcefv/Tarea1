@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Tarea1.Models;
 
 namespace Tarea1.Controllers
 {
@@ -31,6 +32,12 @@ namespace Tarea1.Controllers
         {          
 
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult Formulario(Gato modeloGato)
+        {
+            return View("InfoGato", modeloGato);
         }
     }
 }
