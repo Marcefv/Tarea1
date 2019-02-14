@@ -26,5 +26,11 @@ namespace Tarea1.Controllers
 
             return View();
         }
+
+        public ActionResult Formulario()
+        {          
+
+            return View();
+        }
     }
 }
